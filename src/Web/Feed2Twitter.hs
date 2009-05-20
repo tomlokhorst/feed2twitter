@@ -36,7 +36,6 @@ import Web.Feed2Twitter.Twitter
 import qualified Data.ByteString as BS
 import qualified Data.ByteString.Char8 as BSC
 import Network.Curl.Download
-import Text.HTML.TagSoup
 import Text.Atom.Feed
 import Text.Feed.Import
 import Text.RSS.Syntax

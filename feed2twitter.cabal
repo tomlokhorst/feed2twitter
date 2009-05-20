@@ -33,8 +33,7 @@ library
                      bytestring >= 0.9.1.4,
                      download-curl >= 0.1.1,
                      feed >= 0.3.6,
-                     hs-twitter >= 0.2.5,
-                     tagsoup >= 0.6
+                     hs-twitter >= 0.2.5
   hs-source-dirs:    src
   exposed-modules:   Web.Feed2Twitter
   other-modules:     Web.Feed2Twitter.Twitter
