@@ -5,9 +5,8 @@ description:         Reads feeds and tweets each post to a Twitter account.
                      This is both a library and a simple executable build on top
                      of it.
                      .
-                     A feed is read only once. To keep updating, call this 
+                     The feed is read only once. To keep updating, call this 
                      program/library every few minutes.
-                     .
                      A local cache of earlier tweets is kept in a file to make
                      sure no duplicates are sent.
                      .
@@ -18,6 +17,10 @@ description:         Reads feeds and tweets each post to a Twitter account.
                      .
                      See the `hackage2twitter` program for an example of how to
                      use this library.
+                     .
+                     The executable can be used as such:
+                     .
+                     > $ feed2twitter http://example.com/feed.rss username password cache-file 50 [--debug-mode]
 license:             BSD3
 license-file:        LICENSE
 author:              Tom Lokhorst
